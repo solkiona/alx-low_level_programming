@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* my function starts from here */
+/**
+ * main is where my function begins 
+ * returns 0 since the type is integer
+  */
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle");
