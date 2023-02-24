@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_numbers - prints the numbers from 0 to 9
- * _putchar - writes result to console
- * Return: Always 0 if succesful
+ * print_numbers - prints numbers between 0 to 9.
+ * Return: no return.
  */
 void print_numbers(void)
 {
