@@ -7,9 +7,9 @@
  */
 void rev_string(char *s)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < 1000; i++)
+	while  (i >= 0)
 	{
 		if (s[i] == '\0')
 		{
@@ -22,5 +22,6 @@ void rev_string(char *s)
 			}
 			break;
 		}
+		i++;
 	}
 }
