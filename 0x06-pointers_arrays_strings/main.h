@@ -9,5 +9,6 @@ int _strcmp(char *s1, char *s2);
 char *string_toupper(char *);
 char *cap_string(char *s);
 char *rot13(char *s);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
 #endif /* MAIN_H */
