@@ -8,5 +8,6 @@ char *_strchr(char *s, char c);
 #include <stddef.h>
 unsigned int _strspn(char *s, char *accept);
 #include <string.h>
+char *_strpbrk(char *s, char *accept);
 
 #endif /* MAIN_H */
