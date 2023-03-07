@@ -9,7 +9,10 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	char *p1 = dest;
+	char *p2 = src;
+
 	while (n--)
-		*dest++ = *src++;
+		*p1++ = *p2++;
 	return (dest);
 }
