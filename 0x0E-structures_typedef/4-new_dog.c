@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
-
+int _strlen(char *s);
 /**
  * new_dog - creates a new dog
  * @name: input name
@@ -39,18 +39,33 @@ dog_t *new_dog(char *name, float age, char *owner)
 }
 
 /**
+ * _strlen - Calculates the length of a string
+ * @s: string
+ * Descripion: Calculates the lenght of a string
+ * Return: An integer representing the lenght of a string
+ */
+int _strlen(char *s)
+{
+	int len;
+
+	for (len = 0; s[len]; len++)
+	{}
+
+	return (len);
+}
+
+/**
  * _strcpy - copies a source string to a destination
  * @src: input source string
  * Return: Returns a pointer to the string copied
  */
 char *_strcpy(char *src)
 {
-	int len = 0;
+	int len;
 	int j = 0;
 	char *dest;
 
-	while (src[len] != '\0')
-		len++;
+	len = _strlen(src);
 	dest = malloc(sizeof(char) * len + 1);
 	if (dest == NULL)
 		return (NULL);
