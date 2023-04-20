@@ -55,7 +55,7 @@ char *_strcpy(char *src)
 	if (dest == NULL)
 		return (NULL);
 
-	for (j = 0; src[j]; j++)
+	for (j = 0; src[j] != '\0'; j++)
 		dest[j] = src[j];
 	dest[j] = '\0';
 
