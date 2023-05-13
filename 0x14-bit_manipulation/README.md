@@ -1,4 +1,4 @@
-#Bit Manipulation
+Bit Manipulation
 
 Bit manipulation is the process of manipulating individual bits in a binary number. This is a fundamental operation in computer science and is used in many applications, such as cryptography, compression, and low-level programming.
 
